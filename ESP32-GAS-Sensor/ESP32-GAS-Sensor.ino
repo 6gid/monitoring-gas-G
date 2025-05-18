@@ -4,7 +4,7 @@
 #include <WiFi.h>                    // Untuk koneksi WiFi ESP32
 #include <HTTPClient.h>              // Untuk komunikasi HTTP (kirim ke ThingSpeak)
 
-// Konfigurasi ukuran layar OLED
+// Konfigurasi ukuran layar OLEDD
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
